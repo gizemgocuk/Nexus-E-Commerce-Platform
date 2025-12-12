@@ -1,0 +1,5 @@
+{
+  "name": "Nexus E-Commerce",
+  "description": "A production-grade e-commerce frontend simulation featuring a complete shopping flow, admin dashboard, mock authentication, and responsive design using React, Tailwind CSS, and Zustand.",
+  "requestFramePermissions": []
+}
