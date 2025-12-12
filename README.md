@@ -1,40 +1,78 @@
-# Nexus E-Commerce
+# Nexus E-Commerce Platform
 
-Modern bir e-ticaret uygulaması. React, TypeScript, Vite ve Express.js ile geliştirilmiştir.
+Nexus E-Commerce is a modern, full-stack e-commerce platform built with **React, TypeScript, Vite, and Express.js**.  
+The project is designed with a **production-oriented mindset**, focusing on clean architecture, scalability, and real-world application patterns.
 
-## Özellikler
+---
 
-- 🛍️ Ürün kataloğu ve detay sayfaları
-- 🛒 Sepet yönetimi
-- 💳 Ödeme entegrasyonu (Stripe, PayTR simülasyonu)
-- 👤 Kullanıcı kimlik doğrulama
-- 📊 Admin paneli ve istatistikler
-- 🎨 Modern ve responsive tasarım
+## 🚀 Features
 
-## Kurulum
+### 🛍️ Product Management
+- Product listing and detail pages
+- Modular and reusable component structure
+- Optimized rendering for performance
 
-**Gereksinimler:** Node.js
+### 🛒 Cart & Checkout
+- Global cart state management
+- Add/remove/update cart items
+- Persistent cart logic
 
-1. Bağımlılıkları yükleyin:
+### 👤 Authentication
+- User login and registration flow
+- Route protection for authenticated users
+- Centralized auth state management
+
+### 📊 Admin Panel
+- Admin dashboard structure
+- Basic analytics and statistics view
+- Scalable role-based access design
+
+### 🎨 UI & UX
+- Fully responsive design
+- Modern UI components
+- Clean and minimal layout principles
+
+---
+
+## 🧠 Architecture Overview
+
+- **Frontend:** SPA built with React + TypeScript using Vite
+- **Backend:** RESTful API built with Express.js
+- **State Management:** Zustand
+- **Form Handling & Validation:** React Hook Form + Zod
+- **Routing:** React Router
+
+The frontend and backend are developed as **separate services**, allowing independent scaling and future deployment flexibility.
+
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+- React 18
+- TypeScript
+- Vite
+- Zustand
+- React Router
+- React Hook Form
+- Zod
+
+### Backend
+- Node.js
+- Express.js
+
+### UI & Utilities
+- Lucide React Icons
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+
+### Installation
+
+1. Install dependencies:
    ```bash
    npm install
-   ```
-
-2. Uygulamayı başlatın:
-   ```bash
-   npm run dev:all
-   ```
-   
-   Bu komut hem frontend hem de backend sunucularını başlatır.
-
-## Sunucular
-
-- **Frontend (React/Vite):** http://localhost:3000
-- **Backend API (Express):** http://localhost:3001
-
-## Teknolojiler
-
-- **Frontend:** React 18, TypeScript, Vite, Zustand, React Router
-- **Backend:** Express.js, Node.js
-- **Form Yönetimi:** React Hook Form, Zod
-- **UI:** Lucide React Icons
